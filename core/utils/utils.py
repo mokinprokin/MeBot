@@ -31,6 +31,3 @@ def descriptionCreator(name:str,about:str,target:Optional[str]="",hobby: Optiona
                 Хобби/интересный факт: {hobby}"""
     return prompt
     
-# prompt = descriptionCreator("Макар Пимпарабам 15 лет","Я Python разработчик и разрабатываю классные сайты","хотел бы найти партнёров и интересные проекты над которыми можно поработать","Хоккеем занимаюсь и боксом","Деловой",20)
-# desc = asyncio.run(get_description(prompt))
-# print(desc)
